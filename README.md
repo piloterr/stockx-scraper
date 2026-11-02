@@ -75,7 +75,7 @@ response = requests.get(
     params={
         "query": "nike-air-max-1-travis-scott-wheat",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -339,7 +339,7 @@ response = requests.get(
     params={
         "query": "Air Jordan Retro",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -448,7 +448,7 @@ response = requests.get(
     params={
         "query": "sneakers",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
